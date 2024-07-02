@@ -1,4 +1,0 @@
-service mtk_hal_imsa /vendor/bin/hw/vendor.mediatek.hardware.imsa@1.0-service
-    class hal
-    user radio
-    group radio
