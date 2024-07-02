@@ -56,18 +56,7 @@ TARGET_BOARD_PLATFORM := mt6797
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
-<<<<<<< Updated upstream
-TW_USE_TOOLBOX := true
-TW_BACKUP_EXCLUSIONS := /data/fonts
-RECOVERY_SDCARD_ON_DATA := true
-TW_DEFAULT_LANGUAGE := zh_CN # 默认为中文
-TW_DEVICE_VERSION := m20_m3k4 by Monster205
-PLATFORM_VERSION := 8
 
-=======
->>>>>>> Stashed changes
-# fstab
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 #压缩体积
 TW_EXCLUDE_SUPERSU := true
