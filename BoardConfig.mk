@@ -67,8 +67,6 @@ BOARD_KERNEL_MODULES := false
 
 # 使用优化选项
 TARGET_GLOBAL_CFLAGS := -Os
-
-BOARD_KERNEL_CMDLINE := console=null
 TW_NO_SCREENSHOT := true
 TW_NO_SCREEN_TIMEOUT := true
 TW_NO_USB_STORAGE := true
